@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NewYork.com</title>
+	<style type="text/css">
+		*{
+	padding: 0;
+	margin: 0;
+	font-family: Century Gothic;
+	}
+	header {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('city.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	}
+	ul{
+		list-style-type: none;
+		float: right;
+		margin-top: 25px;
+		margin-right: 15px;
+	}
+	ul li{
+		display: inline-block;
+	}
+	ul li a{
+		text-decoration: none;
+		color: #b29168;
+		font-size: 16px;
+		padding: 5px 20px;
+		border: 1px solid #b29168;
+		border-style: hidden;
+		transition: 0.7s ease;
+		font-weight: bold;
+	}
+	ul li a:hover{
+		background-color: #b29168;
+		color: black;
+
+	}
+	ul li.active a{
+		background-color: #b29168;
+		color: black;
+	}
+	.logo img{
+		float: left;
+		width: 130px;
+		height: auto;
+		margin-left: 15px;
+		margin-top: 10px;
+	}
+	.title{
+		position: absolute;
+		top: 45%;
+		left: 50%;
+		transform: translate(-50%,-50%)
+	}
+	.title h1{
+		color: #b29168;
+		text-align: center;
+		font-size: 120px;
+		padding-right: 9px;
+		padding-bottom: 7px;
+
+	}
+	.Registration{
+		position: absolute;
+		top: 57%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.btn{
+		border: 1px solid #b29168;
+		color: #b29168;
+		padding: 7px 70px;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	.btn-2{
+		border: 1px solid #b29168;
+		color: #b29168;
+		padding: 7px 65px;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	.btn:hover{
+		background-color: #b29168;
+		color: black;
+	}
+
+	.btn-2:hover{
+		background-color: #b29168;
+		color: black;
+	}
+	.copyright{
+		color: #b29168;
+		position: absolute;
+		top: 97%;
+		left: 94%;
+		transform: translate(-50%,-50%);
+		font-size: 10px;
+	}
+	</style>
+</head>
+<body>
+<header>
+	<div class="main">
+		<div class="logo">
+		<img src="E:\Website\logo-2.png">
+		</div>
+		<ul>
+			<li class="active"><a href="index.html">Home</a></li>
+			<li><a href="Tours.html">Tours</a></li>
+			<li><a href="#">Reviews</a></li>
+			<li><a href="#">Pricing</a></li>
+			<li><a href="#">Covid-19 Precautions</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact us</a></li>
+		</ul>
+		<div class="title">
+		<h1>NewYork&nbsp;City</h1>
+		</div>
+	</div>
+		<div class="Registration">
+			<a href="#" class="btn">Login</a>
+			<a href="#" class="btn-2">Sign up</a>
+		</div>
+		<div class="copyright">
+			<p>Copyright&nbsp;&copy;&nbsp;2021&nbsp;by&nbsp;YASEEN&nbsp;AHMAD<br>
+			All&nbsp;rights&nbsp;reserved.</p>
+		</div>
+</header>
+</body>
+</html>
